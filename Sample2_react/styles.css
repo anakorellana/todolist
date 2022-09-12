@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: 'Alegreya Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  } 
+
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app{
+background: #385170;
+padding: 30px;
+height: 80vh;
+width: 60vh;
+
+}
+
+
+h1 {
+    font-family: 'Alegreya', serif;
+    color: #272343;
+}
+
+.todo-list{
+
+    background:#e3f6f5;
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 400px;
+    
+}
+
+.todo{
+
+    background:#bae8e8;
+    box-shadow: 1px 1px 1px rgba(0,0,0, 0.15);
+    padding: 3px 10px;
+    font-size: 24px;
+    margin-bottom: 6px;
+    border-radius: 3px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.input{
+    
+    width: 100%;
+    box-sizing: border-box;
+    border:0;
+    border-radius: 4px;
+    box-shadow: none;
+    padding: 1rem;
+    height: 2.25em;
+    font-size: 24px;
+
+}
+
